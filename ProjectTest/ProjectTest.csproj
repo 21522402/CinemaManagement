@@ -7,4 +7,12 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="Resource\Icons\icon_Search.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resource\Icons\icon_Search.png" />
+  </ItemGroup>
+
 </Project>
