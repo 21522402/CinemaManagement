@@ -10,6 +10,8 @@
   <ItemGroup>
     <PackageReference Include="MaterialDesignColors" Version="2.0.9" />
     <PackageReference Include="MaterialDesignThemes" Version="4.6.1" />
+    <None Remove="Resource\Icons\icon_Search.png" />
+    <Resource Include="Resource\Icons\icon_Search.png" />
   </ItemGroup>
 
 </Project>
